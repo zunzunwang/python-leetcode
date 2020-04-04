@@ -5,7 +5,7 @@
 try to make a progress step by step
 
 ## Question list
-[Happy Number](./happyNumber.py)
-[Max Subarray](./maxSubarray.py)
-[Move Zeros](./moveZeros.py)
-[Single Number](./singleNumber.py)
+- [Happy Number](./happyNumber.py)
+- [Max Subarray](./maxSubarray.py)
+- [Move Zeros](./moveZeros.py)
+- [Single Number](./singleNumber.py)
