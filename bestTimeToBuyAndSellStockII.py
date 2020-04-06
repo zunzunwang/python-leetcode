@@ -41,7 +41,7 @@ class Solution:
             if prices[i] > prices[i - 1]:
                 result += prices[i] - prices[i - 1]
         return result
-    
+
     def maxProfit1(self, prices: List[int]) -> int:
         if len(prices) == 1:
             return 0

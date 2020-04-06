@@ -3,6 +3,8 @@ import happyNumber as hn
 import maxSubarray as ms
 import movesZeros as mz
 import bestTimeToBuyAndSellStockII as bttbas2
+import groupAnagrams as ga
+import dis
 
 # day1 single Number
 s = sn.Solution()
@@ -28,4 +30,13 @@ print('-----------------')
 
 # day5 best time to buy and sell stock II
 s = bttbas2.Solution()
-print(s.maxProfit2([7, 1, 5, 3, 6, 4]))
+print(s.maxProfit([7, 1, 5, 3, 6, 4]))
+print('-----------------')
+
+# day6 group Anagrams
+s = ga.Solution()
+dis.dis('{}')
+dis.dis('dict()')
+
+print(s.groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
+print('-----------------')
