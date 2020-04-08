@@ -5,6 +5,8 @@ import movesZeros as mz
 import bestTimeToBuyAndSellStockII as bttbas2
 import groupAnagrams as ga
 import dis
+import countingElements as ce
+
 
 # day1 single Number
 s = sn.Solution()
@@ -40,3 +42,7 @@ dis.dis('dict()')
 
 print(s.groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
 print('-----------------')
+
+# day7 Counting Elements
+s = ce.Solution()
+print(s.countElements([1,3,2,3,5,0]))
