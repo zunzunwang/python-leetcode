@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     """
-    method1: use queue
+    method1: use stack
     """
 
     def backspaceCompare(self, S: str, T: str) -> bool:
