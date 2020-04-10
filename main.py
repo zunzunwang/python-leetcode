@@ -7,6 +7,7 @@ import groupAnagrams as ga
 import dis
 import countingElements as ce
 import middleOfTheLinkedList as motll
+import backspaceStringCompare as bssc
 
 # day1 single Number
 s = sn.Solution()
@@ -63,3 +64,9 @@ result = s.middleNode(n1)
 while result:
     print(result.val)
     result = result.next
+print('-----------------')
+
+# Day9 back space string compare
+s = bssc.Solution()
+print(s.backspaceCompare("###ab#c", "ad#c"))
+print(s.backspaceCompare2("###ab#cd", "ad#cc#d"))
