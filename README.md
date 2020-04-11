@@ -14,4 +14,6 @@ try to make a progress step by step
 - [Counting Elements](./countingElements.py)
 - [Middle Of The Linked List](./middleOfTheLinkedList.py)
 - [Back Space String Compare](./backspaceStringCompare.py)
+- [Min Stack](./minStack.py)
+
 

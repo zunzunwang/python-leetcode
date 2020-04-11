@@ -8,6 +8,7 @@ import dis
 import countingElements as ce
 import middleOfTheLinkedList as motll
 import backspaceStringCompare as bssc
+import minStack as mstack
 
 # day1 single Number
 s = sn.Solution()
@@ -70,3 +71,16 @@ print('-----------------')
 s = bssc.Solution()
 print(s.backspaceCompare("###ab#c", "ad#c"))
 print(s.backspaceCompare2("###ab#cd", "ad#cc#d"))
+print('-----------------')
+
+# day10 min stack
+minStack = mstack.MinStack()
+minStack.push(4)
+minStack.push(5)
+minStack.push(6)
+minStack.push(3)
+print(minStack.getMin())
+minStack.pop()
+print(minStack.top())
+print(minStack.getMin())
+print('-----------------')
