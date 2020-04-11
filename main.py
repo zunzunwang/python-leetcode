@@ -9,6 +9,7 @@ import countingElements as ce
 import middleOfTheLinkedList as motll
 import backspaceStringCompare as bssc
 import minStack as mstack
+import diameter_of_binary_tree as dobt
 
 # day1 single Number
 s = sn.Solution()
@@ -84,3 +85,23 @@ minStack.pop()
 print(minStack.top())
 print(minStack.getMin())
 print('-----------------')
+
+# day11 diameter of binary tree
+"""
+          1
+         / \
+        2   3
+       / \     
+      4   5    
+"""
+n1 = dobt.TreeNode(1)
+n2 = dobt.TreeNode(2)
+n3 = dobt.TreeNode(3)
+n4 = dobt.TreeNode(4)
+n5 = dobt.TreeNode(5)
+n1.left = n2
+n1.right = n3
+n2.left = n4
+n2.right = n5
+s = dobt.Solution()
+print(s.diameterOfBinaryTree(n1))

@@ -15,5 +15,6 @@ try to make a progress step by step
 - [Middle Of The Linked List](./middleOfTheLinkedList.py)
 - [Back Space String Compare](./backspaceStringCompare.py)
 - [Min Stack](./minStack.py)
+- [Diameter Of Binary Tree](./diameter_of_binary_tree.py)
 
 
