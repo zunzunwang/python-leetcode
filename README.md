@@ -16,5 +16,7 @@ try to make a progress step by step
 - [Back Space String Compare](./backspaceStringCompare.py)
 - [Min Stack](./minStack.py)
 - [Diameter Of Binary Tree](./diameter_of_binary_tree.py)
+- [Last Stone Weight](./last_stone_weight.py)
+
 
 

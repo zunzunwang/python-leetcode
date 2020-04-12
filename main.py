@@ -10,6 +10,7 @@ import middleOfTheLinkedList as motll
 import backspaceStringCompare as bssc
 import minStack as mstack
 import diameter_of_binary_tree as dobt
+import last_stone_weight as lsw
 
 # day1 single Number
 s = sn.Solution()
@@ -105,3 +106,8 @@ n2.left = n4
 n2.right = n5
 s = dobt.Solution()
 print(s.diameterOfBinaryTree(n1))
+print('-----------------')
+
+# day11 last stone weight
+s = lsw.Solution()
+print(s.lastStoneWeight([6,7,8,8,9,9]))
