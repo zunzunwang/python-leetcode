@@ -17,6 +17,7 @@ try to make a progress step by step
 - [Min Stack](./minStack.py)
 - [Diameter Of Binary Tree](./diameter_of_binary_tree.py)
 - [Last Stone Weight](./last_stone_weight.py)
+- [Contiguous Array](./contiguous_array.py)
 
 
 

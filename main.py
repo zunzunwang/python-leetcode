@@ -11,6 +11,7 @@ import backspaceStringCompare as bssc
 import minStack as mstack
 import diameter_of_binary_tree as dobt
 import last_stone_weight as lsw
+import contiguous_array as ca
 
 # day1 single Number
 s = sn.Solution()
@@ -111,3 +112,8 @@ print('-----------------')
 # day11 last stone weight
 s = lsw.Solution()
 print(s.lastStoneWeight([6,7,8,8,9,9]))
+print('-----------------')
+
+# day12 contiguous array
+s = ca.Solution()
+print(s.findMaxLength([1,0,1,0,1,1,0]))
