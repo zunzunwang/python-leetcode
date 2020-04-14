@@ -12,6 +12,7 @@ import minStack as mstack
 import diameter_of_binary_tree as dobt
 import last_stone_weight as lsw
 import contiguous_array as ca
+import perform_string_shifts as pss
 
 # day1 single Number
 s = sn.Solution()
@@ -117,3 +118,8 @@ print('-----------------')
 # day12 contiguous array
 s = ca.Solution()
 print(s.findMaxLength([1,0,1,0,1,1,0]))
+print('-----------------')
+
+# day13 perform string shifts
+s = pss.Solution()
+print(s.stringShift('abcdefg', [[0,1],[1,3]]))

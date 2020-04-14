@@ -18,6 +18,7 @@ try to make a progress step by step
 - [Diameter Of Binary Tree](./diameter_of_binary_tree.py)
 - [Last Stone Weight](./last_stone_weight.py)
 - [Contiguous Array](./contiguous_array.py)
+- [Perform String Shifts](./perform_string_shifts.py)
 
 
 
