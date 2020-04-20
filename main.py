@@ -14,6 +14,7 @@ import last_stone_weight as lsw
 import contiguous_array as ca
 import perform_string_shifts as pss
 import product_of_array_except_self as poaes
+import number_of_islands as noi
 
 # day1 single Number
 s = sn.Solution()
@@ -129,3 +130,9 @@ print('-----------------')
 # day14 product of array except self
 s = poaes.Solution()
 print(s.productExceptSelf([1, 2, 3, 4]))
+print('-----------------')
+
+# day15 Number of Islands
+s = noi.Solution()
+print(s.numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]))
+print('-----------------')

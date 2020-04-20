@@ -20,6 +20,7 @@ try to make a progress step by step
 - [Contiguous Array](./contiguous_array.py)
 - [Perform String Shifts](./perform_string_shifts.py)
 - [Product Of Array Except Self](./product_of_array_except_self.py)
+- [Number Of Islands](./number_of_islands.py)
 
 
 
