@@ -15,23 +15,28 @@ import contiguous_array as ca
 import perform_string_shifts as pss
 import product_of_array_except_self as poaes
 import number_of_islands as noi
+import minimum_path_sum as mps
 
 # day1 single Number
+print("day1 single Number")
 s = sn.Solution()
 print(s.singleNumber([4, 1, 2, 3, 3, 2, 1, 5, 5]))
 print('-----------------')
 
 # day2 happyNumber
+print("day2 happyNumber")
 s = hn.Solution()
 print(s.isHappy(2))
 print('-----------------')
 
 # day3 maxSubarray
+print("day3 maxSubarray")
 s = ms.Solution()
 print(s.maxSubArray3([21, -100, 20, 80, -500, 90]))
 print('-----------------')
 
 # day4 movesZeros
+print("day4 movesZeros")
 s = mz.Solution()
 nums = [0, 1, 0, 3, 12]
 s.moveZeros(nums)
@@ -39,11 +44,13 @@ print(nums)
 print('-----------------')
 
 # day5 best time to buy and sell stock II
+print("day5 best time to buy and sell stock II")
 s = bttbas2.Solution()
 print(s.maxProfit([7, 1, 5, 3, 6, 4]))
 print('-----------------')
 
 # day6 group Anagrams
+print("day6 group Anagrams")
 s = ga.Solution()
 dis.dis('{}')
 dis.dis('dict()')
@@ -52,11 +59,13 @@ print(s.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 print('-----------------')
 
 # day7 Counting Elements
+print("day7 Counting Elements")
 s = ce.Solution()
 print(s.countElements([1, 3, 2, 3, 5, 0]))
 print('-----------------')
 
 # Day8 middle of the linked list
+print("Day8 middle of the linked list")
 s = motll.Solution()
 n1 = motll.ListNode(1)
 n2 = motll.ListNode(2)
@@ -73,13 +82,15 @@ while result:
     result = result.next
 print('-----------------')
 
-# Day9 back space string compare
+# day9 back space string compare
+print("day9 back space string compare")
 s = bssc.Solution()
 print(s.backspaceCompare("###ab#c", "ad#c"))
 print(s.backspaceCompare2("###ab#cd", "ad#cc#d"))
 print('-----------------')
 
 # day10 min stack
+print("day10 min stack")
 minStack = mstack.MinStack()
 minStack.push(4)
 minStack.push(5)
@@ -92,6 +103,7 @@ print(minStack.getMin())
 print('-----------------')
 
 # day11 diameter of binary tree
+print("day11 diameter of binary tree")
 """
           1
          / \
@@ -112,27 +124,38 @@ s = dobt.Solution()
 print(s.diameterOfBinaryTree(n1))
 print('-----------------')
 
-# day11 last stone weight
+# day12 last stone weight
+print("day12 last stone weight")
 s = lsw.Solution()
 print(s.lastStoneWeight([6, 7, 8, 8, 9, 9]))
 print('-----------------')
 
-# day12 contiguous array
+# day13 contiguous array
+print("day13 contiguous array")
 s = ca.Solution()
 print(s.findMaxLength([1, 0, 1, 0, 1, 1, 0]))
 print('-----------------')
 
-# day13 perform string shifts
+# day14 perform string shifts
+print("day14 perform string shifts")
 s = pss.Solution()
 print(s.stringShift('abcdefg', [[0, 1], [1, 3]]))
 print('-----------------')
 
-# day14 product of array except self
+# day15 product of array except self
+print("day15 product of array except self")
 s = poaes.Solution()
 print(s.productExceptSelf([1, 2, 3, 4]))
 print('-----------------')
 
-# day15 Number of Islands
+# day16 Number of Islands
+print("day16 Number of Islands")
 s = noi.Solution()
 print(s.numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]))
+print('-----------------')
+
+# day 17 Minimum Path Sum
+print("day 17 Minimum Path Sum")
+s = mps.Solution()
+print(s.minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
 print('-----------------')
