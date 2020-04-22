@@ -22,6 +22,5 @@ try to make a progress step by step
 - [Product Of Array Except Self](./product_of_array_except_self.py)
 - [Number Of Islands](./number_of_islands.py)
 - [Minimum Path Sum](./minimum_path_sum.py)
-
-
+- [Search in Rotated Sorted Array](./search_in_rotated_sorted_array.py)
 

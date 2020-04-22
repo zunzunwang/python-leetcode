@@ -16,6 +16,7 @@ import perform_string_shifts as pss
 import product_of_array_except_self as poaes
 import number_of_islands as noi
 import minimum_path_sum as mps
+import search_in_rotated_sorted_array as sursa
 
 # day1 single Number
 print("day1 single Number")
@@ -151,11 +152,17 @@ print('-----------------')
 # day16 Number of Islands
 print("day16 Number of Islands")
 s = noi.Solution()
-print(s.numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]))
+print(s.numIslands(
+    [["1", "1", "1", "1", "0"], ["1", "1", "0", "1", "0"], ["1", "1", "0", "0", "0"], ["0", "0", "0", "0", "0"]]))
 print('-----------------')
 
 # day 17 Minimum Path Sum
 print("day 17 Minimum Path Sum")
 s = mps.Solution()
-print(s.minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
+print(s.minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]))
 print('-----------------')
+
+# day 18 Search in Rotated Sorted Array
+print("  Search in Rotated Sorted Array")
+s = sursa.Solution()
+print(s.search([4, 5, 6, 7, 0, 1, 2], 0))
