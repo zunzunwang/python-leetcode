@@ -17,6 +17,7 @@ import product_of_array_except_self as poaes
 import number_of_islands as noi
 import minimum_path_sum as mps
 import search_in_rotated_sorted_array as sursa
+import construct_binary_search_tree_from_preorder_traversal as cbstfpt
 
 # day1 single Number
 print("day1 single Number")
@@ -157,12 +158,20 @@ print(s.numIslands(
 print('-----------------')
 
 # day 17 Minimum Path Sum
-print("day 17 Minimum Path Sum")
+print("day17 Minimum Path Sum")
 s = mps.Solution()
 print(s.minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]))
 print('-----------------')
 
 # day 18 Search in Rotated Sorted Array
-print("  Search in Rotated Sorted Array")
+print("day18 Search in Rotated Sorted Array")
 s = sursa.Solution()
 print(s.search([4, 5, 6, 7, 0, 1, 2], 0))
+print('-----------------')
+
+# day 19 Construct Binary Search Tree from Preorder Traversal
+print("day19 Construct Binary Search Tree from Preorder Traversal")
+s = cbstfpt.Solution()
+root = s.bstFromPreorder([8, 5, 1, 7, 10, 12])
+cbstfpt.bfs_traversal(root)
+print('-----------------')

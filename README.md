@@ -23,4 +23,6 @@ try to make a progress step by step
 - [Number Of Islands](./number_of_islands.py)
 - [Minimum Path Sum](./minimum_path_sum.py)
 - [Search in Rotated Sorted Array](./search_in_rotated_sorted_array.py)
+- [ Construct Binary Search Tree from Preorder Traversal](./construct_binary_search_tree_from_preorder_traversal.py)
+
 
