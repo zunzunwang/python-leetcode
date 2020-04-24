@@ -18,6 +18,7 @@ import number_of_islands as noi
 import minimum_path_sum as mps
 import search_in_rotated_sorted_array as sursa
 import construct_binary_search_tree_from_preorder_traversal as cbstfpt
+import leftmost_column_with_at_least_a_one as lcwalao
 
 # day1 single Number
 print("day1 single Number")
@@ -174,4 +175,11 @@ print("day19 Construct Binary Search Tree from Preorder Traversal")
 s = cbstfpt.Solution()
 root = s.bstFromPreorder([8, 5, 1, 7, 10, 12])
 cbstfpt.bfs_traversal(root)
+print('-----------------')
+
+# day 20 Construct Binary Search Tree from Preorder Traversal
+print("day20 Leftmost Column with at Least a One")
+s = lcwalao.Solution()
+obj = lcwalao.BinaryMatrix([[0, 0, 1], [0, 0, 1], [0, 1, 0]])
+print(s.leftMostColumnWithOne(obj))
 print('-----------------')
