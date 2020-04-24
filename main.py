@@ -19,6 +19,7 @@ import minimum_path_sum as mps
 import search_in_rotated_sorted_array as sursa
 import construct_binary_search_tree_from_preorder_traversal as cbstfpt
 import leftmost_column_with_at_least_a_one as lcwalao
+import subarray_sum_equals_k as ssek
 
 # day1 single Number
 print("day1 single Number")
@@ -183,3 +184,8 @@ s = lcwalao.Solution()
 obj = lcwalao.BinaryMatrix([[0, 0, 1], [0, 0, 1], [0, 1, 0]])
 print(s.leftMostColumnWithOne(obj))
 print('-----------------')
+
+# day 21 Subarray Sum Equals K
+print("Subarray Sum Equals K")
+s = ssek.Solution()
+print(s.subarraySum([1, 1, 1, 1], 2))
