@@ -20,6 +20,7 @@ import search_in_rotated_sorted_array as sursa
 import construct_binary_search_tree_from_preorder_traversal as cbstfpt
 import leftmost_column_with_at_least_a_one as lcwalao
 import subarray_sum_equals_k as ssek
+import bitwise_and_of_numbers_range as baonr
 
 # day1 single Number
 print("day1 single Number")
@@ -189,3 +190,11 @@ print('-----------------')
 print("Subarray Sum Equals K")
 s = ssek.Solution()
 print(s.subarraySum([1, 1, 1, 1], 2))
+print('-----------------')
+
+# day 22 Bitwise AND of Numbers Range
+print("Bitwise AND of Numbers Range")
+s = baonr.Solution()
+print(s.rangeBitwiseAnd(5, 7))
+print('-----------------')
+
