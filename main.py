@@ -21,6 +21,7 @@ import construct_binary_search_tree_from_preorder_traversal as cbstfpt
 import leftmost_column_with_at_least_a_one as lcwalao
 import subarray_sum_equals_k as ssek
 import bitwise_and_of_numbers_range as baonr
+import lru_cache as lc
 
 # day1 single Number
 print("day1 single Number")
@@ -198,3 +199,25 @@ s = baonr.Solution()
 print(s.rangeBitwiseAnd(5, 7))
 print('-----------------')
 
+# day 23  LRU Cache
+print("LRU Cache")
+obj = lc.LRUCache(2)
+print("put 1, 1")
+obj.put(1, 1)
+print("put 2, 2")
+obj.put(2, 2)
+print("get 1")
+obj.get(1)
+print("put 3, 3")
+obj.put(3, 3)
+print("get 2")
+obj.get(2)
+print("put 4, 4")
+obj.put(4, 4)
+print("get 1")
+obj.get(1)
+print("get 3")
+obj.get(3)
+print("get 4")
+obj.get(4)
+print('-----------------')
