@@ -22,6 +22,7 @@ import leftmost_column_with_at_least_a_one as lcwalao
 import subarray_sum_equals_k as ssek
 import bitwise_and_of_numbers_range as baonr
 import lru_cache as lc
+import jump_game as jg
 
 # day1 single Number
 print("day1 single Number")
@@ -221,3 +222,9 @@ obj.get(3)
 print("get 4")
 obj.get(4)
 print('-----------------')
+
+# day 24 Jump game
+print('day 24 Jump game')
+s = jg.Solution()
+print([2,3,1,1,4])
+print(s.canJump([2,3,1,1,4]))
