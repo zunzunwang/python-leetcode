@@ -23,6 +23,7 @@ import subarray_sum_equals_k as ssek
 import bitwise_and_of_numbers_range as baonr
 import lru_cache as lc
 import jump_game as jg
+import longest_common_subsequence as lcs
 
 # day1 single Number
 print("day1 single Number")
@@ -228,3 +229,13 @@ print('day 24 Jump game')
 s = jg.Solution()
 print([2,3,1,1,4])
 print(s.canJump([2,3,1,1,4]))
+print('-----------------')
+
+
+# day 25  Longest Common Subsequence
+print('Longest Common Subsequence')
+s = lcs.Solution()
+print('abcdaf')
+print('aabcf')
+print(s.longestCommonSubsequence('abcdaf', 'aabcf'))
+print('-----------------')
